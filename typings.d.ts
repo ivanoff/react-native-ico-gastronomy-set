@@ -1,5 +1,6 @@
 declare module 'react-native-ico-gastronomy-set' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'apple-1' |
       'apple' |
@@ -263,7 +264,7 @@ declare module 'react-native-ico-gastronomy-set' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
