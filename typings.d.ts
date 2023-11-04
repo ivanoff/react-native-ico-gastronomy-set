@@ -233,7 +233,248 @@ declare module 'react-native-ico-gastronomy-set' {
       'whisk' |
       'wrap';
 
+    type iconColors = '#003879' |
+      '#00D7EC' |
+      '#0A0E30' |
+      '#0A1135' |
+      '#121C60' |
+      '#155BA0' |
+      '#1951A3' |
+      '#1A49C1' |
+      '#1A69B7' |
+      '#231F20' |
+      '#2B9DD6' |
+      '#2D1E1C' |
+      '#3265D6' |
+      '#372742' |
+      '#38454F' |
+      '#3DABEF' |
+      '#415CCE' |
+      '#436B1C' |
+      '#445A66' |
+      '#447CE0' |
+      '#455560' |
+      '#48A0DC' |
+      '#4C312C' |
+      '#516572' |
+      '#546A79' |
+      '#56413E' |
+      '#564442' |
+      '#583E68' |
+      '#5B4B38' |
+      '#5D7989' |
+      '#60140F' |
+      '#659C35' |
+      '#684B47' |
+      '#698A25' |
+      '#698B9E' |
+      '#6A3311' |
+      '#6B8DA0' |
+      '#6D5C41' |
+      '#6F58A8' |
+      '#701C11' |
+      '#704928' |
+      '#7092A0' |
+      '#71B43D' |
+      '#753D1F' |
+      '#773F3A' |
+      '#775131' |
+      '#79E09B' |
+      '#7A3726' |
+      '#7C2832' |
+      '#7F532F' |
+      '#874F31' |
+      '#875832' |
+      '#88C057' |
+      '#894C3F' |
+      '#8AB6CE' |
+      '#8C572C' |
+      '#8CC9EA' |
+      '#8E4A28' |
+      '#8E5B32' |
+      '#8F7589' |
+      '#914D2B' |
+      '#915D33' |
+      '#962F34' |
+      '#965E5E' |
+      '#96683B' |
+      '#9777A8' |
+      '#98DF2A' |
+      '#994530' |
+      '#9B6026' |
+      '#A0444D' |
+      '#A35A2D' |
+      '#A46F3E' |
+      '#A4E869' |
+      '#A5A5A5' |
+      '#A8431A' |
+      '#ABCBDD' |
+      '#AD5123' |
+      '#AEBB00' |
+      '#AF564F' |
+      '#AF765D' |
+      '#AF7E56' |
+      '#AF7F58' |
+      '#AF875C' |
+      '#B0D9EA' |
+      '#B27C4F' |
+      '#B58C30' |
+      '#B63E32' |
+      '#B85133' |
+      '#BBD7EA' |
+      '#BC633C' |
+      '#BF8555' |
+      '#BFA175' |
+      '#BFBFBF' |
+      '#C18757' |
+      '#C18B5F' |
+      '#C56458' |
+      '#C62A6A' |
+      '#C64940' |
+      '#C69063' |
+      '#C6A473' |
+      '#C6C6C6' |
+      '#C9604D' |
+      '#C9C9C9' |
+      '#CBA598' |
+      '#CC5C56' |
+      '#CC6329' |
+      '#CC9669' |
+      '#CCA672' |
+      '#CD6E61' |
+      '#CE6B29' |
+      '#CF6D61' |
+      '#D13834' |
+      '#D1D1D1' |
+      '#D28F1B' |
+      '#D2D5D7' |
+      '#D32500' |
+      '#D3605E' |
+      '#D3D3D3' |
+      '#D6A550' |
+      '#D75A4A' |
+      '#D79C8C' |
+      '#D7CC56' |
+      '#D85C81' |
+      '#D8A65D' |
+      '#D8AF6F' |
+      '#D8B173' |
+      '#D8B177' |
+      '#D8CBAB' |
+      '#D8D8D8' |
+      '#D99F4C' |
+      '#DAE7EF' |
+      '#DBB579' |
+      '#DBB59C' |
+      '#DC9628' |
+      '#DD7017' |
+      '#E06B65' |
+      '#E09A0A' |
+      '#E0AB36' |
+      '#E0AB85' |
+      '#E0B877' |
+      '#E0BB80' |
+      '#E22F37' |
+      '#E24040' |
+      '#E28759' |
+      '#E2B266' |
+      '#E2D8BF' |
+      '#E2E2E2' |
+      '#E3E82A' |
+      '#E4EEF4' |
+      '#E53384' |
+      '#E58D51' |
+      '#E69441' |
+      '#E6E400' |
+      '#E6E6E6' |
+      '#E7A33E' |
+      '#E85D65' |
+      '#E87474' |
+      '#E8C52E' |
+      '#E8DFC5' |
+      '#E9D3EA' |
+      '#EA5E35' |
+      '#EA847D' |
+      '#EAC494' |
+      '#EACB49' |
+      '#EACBA2' |
+      '#EAEAEA' |
+      '#ED3F32' |
+      '#ED7161' |
+      '#ED8680' |
+      '#ED8F20' |
+      '#EDBC64' |
+      '#EDD194' |
+      '#EDEDED' |
+      '#EEAF4B' |
+      '#EF771D' |
+      '#EF857D' |
+      '#EFC514' |
+      '#EFDFA0' |
+      '#EFE7D0' |
+      '#EFE8D5' |
+      '#EFEFEF' |
+      '#F1B501' |
+      '#F2681C' |
+      '#F2968F' |
+      '#F2E69C' |
+      '#F2ECD3' |
+      '#F2F2F2' |
+      '#F4A7A4' |
+      '#F4BDBD' |
+      '#F4C076' |
+      '#F4C44E' |
+      '#F4C45B' |
+      '#F4C647' |
+      '#F4D8AB' |
+      '#F4DDA4' |
+      '#F4E6D0' |
+      '#F4F4DC' |
+      '#F4F4F4' |
+      '#F55E30' |
+      '#F58265' |
+      '#F6A36E' |
+      '#F75B57' |
+      '#F7994D' |
+      '#F79959' |
+      '#F79B21' |
+      '#F7B7C2' |
+      '#F7E2BF' |
+      '#F8B600' |
+      '#F8B700' |
+      '#F96C7E' |
+      '#F98282' |
+      '#F9D70B' |
+      '#F9DA49' |
+      '#F9E280' |
+      '#F9E295' |
+      '#F9EA80' |
+      '#F9F2E8' |
+      '#FAB900' |
+      '#FAC84D' |
+      '#FAF5E5' |
+      '#FAF8D2' |
+      '#FBB50C' |
+      '#FBD490' |
+      '#FCC66F' |
+      '#FCDF76' |
+      '#FDD807' |
+      '#FDE3AA' |
+      '#FDEB08' |
+      '#FDF0D7' |
+      '#FED070' |
+      '#FFA89C' |
+      '#FFCE72' |
+      '#FFD3B9' |
+      '#FFEACB' |
+      '#FFEE76' |
+      '#FFF1C6' |
+      '#FFF5BB' |
+      '#FFFFFF';
+
     type backgroundType = 'circle' | 'rect' | 'button';
+
+    type colorsType = Record<iconColors, string>;
 
     type positionType = 'top' | 'bottom' | 'right' | 'left' |
       'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
@@ -250,6 +491,7 @@ declare module 'react-native-ico-gastronomy-set' {
       fontSize?: string;
       position?: positionType;
       color?: string;
+      colors: colorsType;
       backgroundColor?: string;
       radius?: number;
     };
@@ -259,6 +501,7 @@ declare module 'react-native-ico-gastronomy-set' {
       width?: number;
       height?: number;
       color?: string;
+      colors: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;
