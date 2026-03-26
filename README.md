@@ -4,7 +4,7 @@
 
 230 Vector Icons for React Native
 
-<img src="./static/aubergine.png" alt="aubergine" width="150" height="150"> <img src="./static/avocado.png" alt="avocado" width="150" height="150"> <img src="./static/bacon.png" alt="bacon" width="150" height="150">
+<img src="./static/doughnut.png" alt="doughnut" width="150" height="150"> <img src="./static/onion-1.png" alt="onion-1" width="150" height="150"> <img src="./static/corn.png" alt="corn" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-gastronomy-set';
 render() {
     return (
         <>
-          <Icon name="aubergine" />
-          <Icon name="avocado" height="40" width="40" />
-          <Icon name="bacon" color="red" />
-          <Icon name="bacon" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="avocado" badge="10" />
-          <Icon name="avocado" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="aubergine" background="circle" />
-          <Icon name="aubergine" background={{ type: "button", color: 'green' }} />
+          <Icon name="doughnut" />
+          <Icon name="onion-1" height="40" width="40" />
+          <Icon name="corn" color="red" />
+          <Icon name="corn" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="onion-1" badge="10" />
+          <Icon name="onion-1" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="doughnut" background="circle" />
+          <Icon name="doughnut" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-gastronomy-set react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "aubergine"
+name | no |  | name of icon | "doughnut"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
